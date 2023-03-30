@@ -1,0 +1,16 @@
+D:\6SEM\itirod\lr1\bin\Debug\net5.0\lr1.exe
+D:\6SEM\itirod\lr1\bin\Debug\net5.0\lr1.deps.json
+D:\6SEM\itirod\lr1\bin\Debug\net5.0\lr1.runtimeconfig.json
+D:\6SEM\itirod\lr1\bin\Debug\net5.0\lr1.runtimeconfig.dev.json
+D:\6SEM\itirod\lr1\bin\Debug\net5.0\lr1.dll
+D:\6SEM\itirod\lr1\bin\Debug\net5.0\ref\lr1.dll
+D:\6SEM\itirod\lr1\bin\Debug\net5.0\lr1.pdb
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.csproj.AssemblyReference.cache
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.GeneratedMSBuildEditorConfig.editorconfig
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.AssemblyInfoInputs.cache
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.AssemblyInfo.cs
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.csproj.CoreCompileInputs.cache
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.dll
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\ref\lr1.dll
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.pdb
+D:\6SEM\itirod\lr1\obj\Debug\net5.0\lr1.genruntimeconfig.cache
