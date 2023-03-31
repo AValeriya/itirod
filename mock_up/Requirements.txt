@@ -1,0 +1,5 @@
+1. Authorization.
+2. Authentication.
+3. Booking tickets.
+4. Sending messages with questions to the service.
+5. Cancellation of the reservation.
