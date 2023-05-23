@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.co/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-  --mediumSlateBlue:#00BFFF;
+  --DeepSkyBlue:#00BFFF;
   
 }  
 
@@ -16,7 +16,7 @@
 }
 
 *::selection{
-background: var(--mediumSlateBlue);
+background: var(--DeepSkyBlue);
 color: #00BFFF;
 }
 
@@ -28,6 +28,21 @@ html{
     scroll-behavior: smooth;
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--DeepSkyBlue);
+    color: #E0FFFF;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--DeepSkyBlue);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: rgba(0, 191, 255, .2);
+    color: var(--DeepSkyBlue);
+}
 
 header{
     position: fixed;
@@ -49,7 +64,7 @@ header .logo{
 }
 
 header .logo span {
-    color: var(--mediumSlateBlue);
+    color: var(--DeepSkyBlue);
 }
 
 header .navbar a{
@@ -59,7 +74,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color: var(--mediumSlateBlue);
+    color: var(--DeepSkyBlue);
 }
 
 header .icons i{
@@ -71,7 +86,7 @@ header .icons i{
 }
 
 header .icons i:hover{
-    color: var(--mediumSlateBlue);
+    color: var(--DeepSkyBlue);
 }
 
 header .search-bar-container{
@@ -83,6 +98,11 @@ header .search-bar-container{
     display: flex;
     align-items: center;
     z-index: 1001;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+header .search-bar-container.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 header .search-bar-container #search-bar{
@@ -91,4 +111,100 @@ header .search-bar-container #search-bar{
     text-transform: none;
     color: #483D8B;
     font-size: 1.7rem;
+    border-radius: .5rem;
+}
+
+header .search-bar-container label{
+    color: #E0FFFF;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+
+header .search-bar-container label:hover{
+    color: var(--DeepSkyBlue);
+}
+
+.login-form-container{
+    position: fixed;
+    top: -120%; left: 0;
+    z-index: 10000;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-container.active{
+    top: 0;
+}
+
+.login-form-container form{
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    background: #E0FFFF;
+    width: 50rem;
+}
+
+.login-form-container form h3{
+    font-size: 3rem;
+    color: #483D8B;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.login-form-container form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #483D8B;
+    margin: .6rem 0;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    text-transform: none;
+}
+
+.login-form-container form .box:focus{
+    border-color: var(--DeepSkyBlue);
+}
+
+.login-form-container form #remember{
+    margin: 2rem 0;
+
+}
+
+.login-form-container form label{
+    font-size: 1.5rem;
+
+}
+
+.login-form-container form .btn{
+    display: block;
+    width: 100%;
+}
+
+.login-form-container form p{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: #483D8B;
+}
+
+.login-form-container form p a{
+    color: var(--DeepSkyBlue);
+}
+
+.login-form-container form p a:hover{
+    color: #483D8B;
+    text-decoration: underline;
+}
+
+.login-form-container #form-close{
+    position: absolute;
+    top: 2rem; right: 3rem;
+    font-size: 5rem;
+    color:#E0FFFF;
+    cursor: pointer;
 }
